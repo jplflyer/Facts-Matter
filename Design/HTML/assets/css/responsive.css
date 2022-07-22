@@ -1,0 +1,24 @@
+.about_image img {
+	max-width: 100%;
+}
+@media only screen and (max-width: 990px) {
+    .parallax_banner_content h1{font-size: 40px;}
+	.parallax_banner_content p{font-size: 20px;}
+	.about_image{margin-bottom: 30px;}
+	.box{margin-bottom: 30px;}
+	.single_counter{margin-bottom: 30px;}
+	.pricingTable{ margin-bottom: 30px;}
+	.post-slide{ margin-bottom: 30px;}
+}
+@media only screen and (max-width: 767px) {
+	.sing_slide_content h1{font-size: 30px; margin-bottom: 10px;}
+	.slider_right{padding-right: 15px;}
+	.slider_left{padding-left: 15px;}	
+	.owl-nav{display: none;}
+	p{font-size: 14px;}
+	.serviceBox{margin-bottom: 80px;}
+	.testimonial{text-align: center;}
+    .testimonial .testimonial-pic{float: none;margin: 0 auto;}
+    .testimonial .testimonial-prof{ padding-left: 0; }
+	.scrollup{display: none;}
+}
